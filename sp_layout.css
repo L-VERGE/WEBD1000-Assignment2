@@ -82,3 +82,13 @@ aside {
 aside:nth-of-type(odd) {
    justify-self: end;
 }
+
+aside img {
+   float: left;
+   width: 20%;
+}
+aside p {
+   float: left;
+   width: 75%;
+   margin-left: 5%;
+}
