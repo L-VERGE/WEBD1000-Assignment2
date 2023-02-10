@@ -38,10 +38,7 @@ img#logo {
    width: 100%;
    grid-column: span 3;
 }
-nav.horizontal {
-   grid-column: span 4;
-}
-footer {
+nav.horizontal, footer {
    grid-column: span 4;
 }
 aside {
@@ -52,7 +49,11 @@ aside {
 
 
 /* Horizontal Navigation List Styles */
-
+nav.horizontal li {
+   display: block;
+   width: 12.5%;
+   float: left;
+}
 
 
 /* Section Styles */
