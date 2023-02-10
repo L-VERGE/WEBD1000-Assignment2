@@ -24,10 +24,16 @@ body {
    max-width: 960px;
    min-height: 100%;
 }
+img {
+   display: block;
+}
 
 
 /* CSS Grid Styles */
-
+body {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 
 
 
